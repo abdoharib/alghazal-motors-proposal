@@ -1,0 +1,65 @@
+/* Arabic typography and direction follow the brand's clear, restrained styling. */
+body{font-family:Tahoma,Arial,sans-serif}
+h1,h2,h3,p,.eyebrow,.micro,.proposal-label,.section-top>span,.cover-note>span,.demo-label,.showroom-nav,.timeline article>span,.timeline small{letter-spacing:0}
+h2{line-height:1.5;font-weight:400}
+p{line-height:1.95}
+.eyebrow,.micro,.section-top>span,.timeline article>span,.timeline small{font-size:11px}
+.cover-copy{left:auto;right:8%;text-align:right}
+.cover h1{font-family:Arial,Helvetica,sans-serif;direction:ltr;text-align:right;letter-spacing:-4px}
+.cover h1 span{letter-spacing:12px}
+.cover-shade{background:linear-gradient(270deg,#041b29f5 0%,#041b29b3 35%,#041b2910 80%),linear-gradient(0deg,#041b29 0%,transparent 45%,#041b2940)}
+.statement{line-height:1.8}
+.gold-button{text-align:right}
+.cover-note{right:auto;left:6%;padding-left:0;padding-right:24px;border-left:0;border-right:1px solid #dca95888}
+.cover-note p{line-height:1.7}
+.image-note{right:auto;left:6%}
+.vision-layout h2{font-size:clamp(43px,5.3vw,80px);line-height:1.55}
+.vision-right>.lead{line-height:1.9}
+.numbered b{margin-bottom:5px}
+.numbered p{font-size:13px}
+.identity-layout h2{line-height:1.5}
+.palette button{width:64px}
+#color-name{direction:rtl;unicode-bidi:plaintext}
+.showroom-copy{left:auto;right:5%;text-align:right}
+.showroom:after{background:linear-gradient(270deg,#041b29eb,transparent 90%)}
+.showroom h3{line-height:1.6;letter-spacing:0;font-size:30px}
+.showroom-nav>span:first-child{direction:ltr}
+.showroom-copy button span{margin-left:0;margin-right:22px}
+.demo-label{right:auto;left:20px}
+.journey-tabs button{text-align:right}
+.journey-tabs b{margin-left:0;margin-right:24px}
+.journey h2{font-size:clamp(34px,4vw,62px)}
+#journey-panel h3{line-height:1.7}
+.scope-list{margin:24px 0}
+.scope-list h3{line-height:1.8}
+.scope-list p{font-size:13px}
+.timeline{gap:25px;margin:30px 0}
+.timeline h3{line-height:1.7;font-size:20px}
+.timeline p{font-size:13px}
+.timeline small{font-size:9px}
+.terms p{font-size:12px}
+.closing h2{font-size:clamp(38px,4.6vw,70px)}
+#chapter-name{margin-left:0;margin-right:20px;font-size:11px}
+.chapter-status,.controls,#dots{direction:rtl}
+.progress{left:auto;right:0}
+#fullscreen{margin-right:0;margin-left:10px}
+#chapter-links button{text-align:right;line-height:1.7}
+#chapter-links span{margin-right:0;margin-left:20px}
+dialog .close{right:auto;left:18px}
+dialog ul{padding-left:0;padding-right:18px}
+dialog li{line-height:2}
+dialog h2{line-height:1.6}
+@media(max-width:760px){
+ .cover-copy{left:6%;right:7%}.cover h1{font-size:clamp(43px,10.8vw,78px);letter-spacing:-2px}.cover h1 span{letter-spacing:8px}
+ .cover-shade{background:linear-gradient(270deg,#041b29ee,#041b2955),linear-gradient(0deg,#041b29,transparent)}
+ .statement{font-size:22px}.vision-layout h2{font-size:40px;line-height:1.5}.vision-layout h2 br:last-of-type{display:none}
+ .identity-layout h2{font-size:32px}.identity-photo{height:190px}
+ .concept-heading h2{font-size:34px;line-height:1.5}.concept-heading>div{margin-bottom:16px}.showroom h3{font-size:26px;line-height:1.5}
+ .showroom-copy{top:29%}.showroom-copy .eyebrow{font-size:10px}.showroom-copy button{font-size:12px}
+ .journey h2{font-size:32px;line-height:1.6}.journey-tabs b{margin:10px 0 0;font-size:15px}
+ #journey-panel{gap:18px}.giant-number{font-size:58px}#journey-panel h3{font-size:19px}
+ .scope h2,.delivery h2{font-size:30px;line-height:1.6}.scope-list h3{font-size:18px}.scope-list p{font-size:13px}
+ .timeline h3{font-size:18px}.timeline p{font-size:12px}.timeline article>span{font-size:10px}.timeline small{font-size:9px}
+ .closing h2{font-size:34px;line-height:1.6}.closing .lead{line-height:1.8}.eyebrow{font-size:11px}
+}
+@media(max-height:700px) and (min-width:761px){h2{font-size:36px;line-height:1.45}.vision-layout h2{font-size:52px}.concept-heading h2{font-size:33px}.timeline{margin:18px 0}.timeline p{font-size:12px}.timeline h3{font-size:18px}.scope-list{margin:15px 0}.scope-list>div{padding:10px 0}.closing h2{font-size:50px}}

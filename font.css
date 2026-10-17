@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "Cairo";
+  src: url("assets/fonts/Cairo-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+}
+
+body,
+body *,
+body *::before,
+body *::after {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.slide h2,
+.slide p,
+.slide button,
+.slide input,
+.slide textarea,
+.slide select {
+  font-weight: 400;
+}
+
+.cover h1,
+.commercial-frame h2,
+.total-price strong,
+.payment-summary b,
+.slide h2 em,
+.slide h3,
+.vehicle-grid strong,
+.detail-price strong,
+.slide .gold-button {
+  font-weight: 700;
+}
+
+.slide .eyebrow,
+.slide .micro,
+.proposal-label,
+.section-top > span,
+.inventory-tools label,
+.vehicle-grid article > p,
+.brand-rail span,
+.slide .commercial-footnote {
+  font-weight: 300;
+}
